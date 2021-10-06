@@ -1,0 +1,11 @@
+p {
+    color: red;
+}
+
+.section-header {
+    text-decoration: underline;
+}
+
+#bulleted-list > li:nth-child(odd) {
+    color: green;
+}
