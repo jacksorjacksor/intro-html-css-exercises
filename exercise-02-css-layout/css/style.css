@@ -1,0 +1,79 @@
+/* Generic */
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: 100;
+    color: purple;
+    background: aliceblue;
+    padding: 1rem;
+}
+
+h2,
+h3,
+h4 {
+    color: darkred;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+li {
+    padding: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+/* Main container */
+.content {
+    position: relative;
+}
+
+/* Header */
+header {
+    padding: 1rem;
+}
+
+/* Aside */
+aside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#sidebar-list {
+    list-style: none;
+}
+
+#sidebar-sublist {
+    list-style: circle;
+}
+
+/* Main */
+main {
+    margin-left: 200px;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+}
+
+.link-container {
+    position: relative;
+}
+
+#link-previous {
+    position: absolute;
+    left: 0;
+}
+
+#link-next {
+    position: absolute;
+    right: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
